@@ -30,7 +30,7 @@ add()
 
 export let linksOfPage = [{
   id: '0' ,
-  video: '',
+  add: '',
   image: 'https://taroba.com.br/api/images/proxy?format=webp&width=800&src=https://s3.amazonaws.com/producao.spayce.com.br/1737792662601_whatsapp_image_2025_01_25_at_07.jpeg',
 
   title: 'Acidente com Gol quadrado em Imbituva-PR deixa uma vítima fatal e outra gravemente ferida',
@@ -40,7 +40,7 @@ export let linksOfPage = [{
   priceCents:1000,
 },{
   id: '1' ,
-  video: '',
+  add: '',
 
   image: 'https://image.portaldacidade.com/unsafe/https://bucket.portaldacidade.com/umuarama.portaldacidade.com/img/news/2025-01/motociclista-provoca-acidente-ao-fugir-de-abordagem-no-centro-de-umuarama-6794bc67ed87a.jpg',
 
@@ -52,7 +52,7 @@ export let linksOfPage = [{
   
 },{
   id: '2' ,
-  video: '',
+  add: '',
 
   image: 'https://www.acidadeon.com/ribeiraopreto/wp-content/uploads/sites/3/2025/01/WhatsApp-Image-2025-01-24-at-09.43.49_2025-01-24_12-48-52_jpeg_2025-01-24_12-48-52-696x392.webp',
 
@@ -62,7 +62,7 @@ export let linksOfPage = [{
 
 },{
   id: '11' ,
-  video: '',
+  add: '',
   image: 'https://brainberries.co/wp-content/uploads/2024/11/4-1.webp',
 
   title: 'Conheça a “mulher cavalo”, mulher que possui comportamento peculiar',
@@ -72,7 +72,7 @@ export let linksOfPage = [{
   priceCents:1000,
 },{
   id: '3' ,
-  video: '',
+  add: '',
 
   image: 'https://rwtv.com.br/wp-content/uploads/2025/01/IMG-20250125-WA0047.jpg',
   title: 'Acidente de trânsito mobiliza Bombeiros na BR-470 em Pouso Redondo',
@@ -81,7 +81,7 @@ export let linksOfPage = [{
 
 },{
   id: '4' ,
-  video: '',
+  add: '',
 
   image: 'https://s2-g1.glbimg.com/ZgZXwen52-is90SotazzBNZn-GY=/0x0:1700x1062/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/Y/b/rlBeB0TcWxuqnw5kATHQ/acidente-1-.png',
   title: 'Acidente deixa carro partido ao meio e mata dois jovens em Goiânia',
@@ -90,7 +90,7 @@ export let linksOfPage = [{
   
 },{
   id: '6' ,
-  video: '',
+  add: '',
 
   image: 'https://ondapocos.com.br/wp-content/webp-express/webp-images/uploads/2025/01/yuri.jpg.webp',
 
@@ -100,7 +100,7 @@ export let linksOfPage = [{
 
 },{
   id: '7' ,
-  video: '',
+  add: '',
 
   image: 'https://s2-g1.glbimg.com/8t39KC9eedB8LnkJiNZ4Kq1SmxY=/0x0:1206x1189/640x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/j/s/qdV40KQlyz8NGTuk8JVw/whatsapp-image-2025-01-28-at-10.31.05-1-.jpeg',
   title: 'Técnica de enfermagem morre a caminho do trabalho após carro dela ser arrastado por carreta e cair em barranco no Paraná',
@@ -109,8 +109,8 @@ export let linksOfPage = [{
 
 },{
   id: '12',
-  video: '',
-  image:`${foto.addimagem} ` ,
+  add: `${foto.addimagem} `,
+  image:'' ,
 
   title: 'Vende-se colheitadeira ano 2000 John deere 1175 | R$:235.000,00.',
 
@@ -119,7 +119,7 @@ export let linksOfPage = [{
   priceCents:1000,
 },{
   id: '8' ,
-  video: '',
+  add: '',
 
   image: 'https://cdn.tnonline.com.br/img/Instant-Article/950000/500x300/Helicoptero-de-matricula-PR--TIB-pertencente-a-emp-00954843-0-202501281443-ScaleDownProportional-2.webp?fallback=https%3A%2F%2Fcdn.tnonline.com.br%2Fimg%2FInstant-Article%2F950000%2FHelicoptero-de-matricula-PR--TIB-pertencente-a-emp-00954843-0-202501281443.png%3Fxid%3D1422068%26resize%3D1000%252C500%26t%3D1738086319&xid=1422068',
 
@@ -129,7 +129,7 @@ export let linksOfPage = [{
 
 },{
   id: '9' ,
-  video: '',
+  add: '',
 
   image: 'https://www.bandab.com.br/wp-content/uploads/2025/01/engavetamento-cinco-veiculos-pr-407-litoral-2-960x592.jpg.webp',
 
@@ -140,13 +140,46 @@ export let linksOfPage = [{
 
 },{
   id: '10' ,
-  video: '',
+  add: '',
 
   image: 'https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2025/01/28/acidente-1k1zjohpriqly.png',
 
   title: 'PM dirige embriagado, dorme ao volante e causa acidente com morte de jovem no litoral de SP',
 
   link: 'https://www.terra.com.br/noticias/brasil/cidades/pm-dirige-embriagado-dorme-ao-volante-e-causa-acidente-com-morte-de-jovem-no-litoral-de-sp,c999f572f88a62fb351de1b0d340e071uyza8leq.html',
+  priceCents:1700,
+
+},{
+  id: '13' ,
+  add: 'https://scontent-gru2-1.xx.fbcdn.net/v/t39.30808-6/473192578_595207533221575_6170470634152321272_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=946e27&_nc_ohc=L_x5qNU0dFgQ7kNvgHyUIzc&_nc_zt=23&_nc_ht=scontent-gru2-1.xx&_nc_gid=AXPQ-VV3q2xJxgA3fH-wXjW&oh=00_AYAv4PbNluR4LSPqaB5NYEWXQS628IN_j6ZwCSkZLriRJw&oe=67A1D3EA',
+
+  image: '',
+
+  title: 'vende-se FIAT Punto Spornting 1.8 ano 2008 | R$:31.900,00',
+
+  link: 'https://www.terra.com.br/noticias/brasil/cidades/pm-dirige-embriagado-dorme-ao-volante-e-causa-acidente-com-morte-de-jovem-no-litoral-de-sp,c999f572f88a62fb351de1b0d340e071uyza8leq.html',
+  priceCents:1700,
+
+},{
+  id: '14' ,
+  add: '',
+
+  image: 'https://sampi.net.br/dir-arquivo-imagem/2025/01/2006940c7d80fe115e263d314d2dc5f3.jpeg',
+
+  title: 'Mulher morre após acidente entre moto e carro em Bauru',
+
+  link: 'https://sampi.net.br/bauru/noticias/2881674/policia/2025/01/mulher-morre-apos-acidente-entre-moto-e-carro-em-bauru',
+  priceCents:1700,
+
+},{
+  id: '15' ,
+  add: '',
+
+  image: 'https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2025/01/30/trump-eua-rh506aqyz78h.jpeg',
+
+  title: "Sem provas, Trump relaciona acidente nos EUA com programas de diversidade e inclusão de Biden: 'Horrível'",
+
+  link: "https://www.terra.com.br/noticias/mundo/estados-unidos/sem-provas-trump-relaciona-acidente-nos-eua-com-programas-de-diversidade-e-inclusao-de-biden-horrivel,d133423c2e91aebc1770fcb8c7309db3h6j3uv1w.html",
   priceCents:1700,
 
 },]
