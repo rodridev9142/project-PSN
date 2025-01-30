@@ -59,7 +59,7 @@ input {
 
 .img-link {
   border-radius: 10px;
-  width: inherit;
+  width: 100%;
   height:56%;
   background-image: url('https://media.istockphoto.com/id/1409329028/pt/vetorial/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=170667a&w=0&k=20&c=w23Ra5S8QoV9jwfrJVXwMuEQq4v_AHxGoRwuUTzSzrU=');
 }
