@@ -13,25 +13,25 @@ export function HTMLpage(linksOfPage) {
 
 linksOfPage.forEach((link) =>{
 
-  if (link.video) {
+  if (link.add) {
     homePageHTML += `
-    <div class="news-container">
-      <div class="image-container">
-        <video controls class="img-link" src="${link.video}"></video>
+    <div class="page-add-container">
+    <div class="image-container">
+      <img class="img-link" src="${link.add}">
+    </div>
+    <div class="title-box-container" >
+      <div class="perfil-container">
+        <div class="foto-perfil-container">
+          <img class="ad-icon" src="https://icon-library.com/images/advertisment-icon/advertisment-icon-8.jpg"> 
+        </div>
+        <div class="nome-perfil"></div>
       </div>
-      <div class="title-box-container" >
-        <div class="perfil-container">
-        <p>agua</p>
-        </div>
-        <div class="title-container">${link.title}
-        </div>
-        <div class="price">
-        <p>$:${link.priceCents / 100}</p>
-        </div>
-        <div class="js"></div>
-        <button class="add-cart" data-product-id="${link.id}">Add</button>
+      <div class="title-container">
+        <p class="patrocinio">Patrocinado</p>
+        <p class="title-video">${link.title}</p>
       </div>
     </div>
+  </div>
     `;
   } else{ homePageHTML += `
   <div class="news-container">
