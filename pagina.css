@@ -1,5 +1,5 @@
 .header {
-  background-color: hsl(197, 97%, 71%);
+  background-color: hsl(0, 0%, 95%);
   position:static;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -118,6 +118,7 @@ a {
 
 
 @media only screen and (min-width: 600px) {
+  /*
   .header {
     background-color: hsl(197, 97%, 71%);
     position:static;
@@ -126,7 +127,7 @@ a {
     justify-content: space-between;
     width: 100%;
   }
-  
+  */
   input {
     width: 100px;
   }
