@@ -29,6 +29,16 @@ add()
 
 
 export let linksOfPage = [{
+  id: '16' ,
+  add:  "https://i.ytimg.com/vi/13DRkbl9f0U/maxresdefault.jpg",
+  image:'',
+
+  title: "Acesse agora o site da Engov e garanta 30% de descontos em nossos produtos. ",
+
+  link:"https://www.engov.com.br/?gad_source=1&gclid=Cj0KCQiA4-y8BhC3ARIsAHmjC_GIfaiUbAVASaBqWGu1J_q2c-PwTKldEj8fFYinjCnBGGhzybDjoeQaAj0OEALw_wcB",
+
+  priceCents:1000,
+},{
   id: '0' ,
   add: '',
   image: 'https://taroba.com.br/api/images/proxy?format=webp&width=800&src=https://s3.amazonaws.com/producao.spayce.com.br/1737792662601_whatsapp_image_2025_01_25_at_07.jpeg',
@@ -151,11 +161,11 @@ export let linksOfPage = [{
 
 },{
   id: '13' ,
-  add: 'https://scontent-gru2-1.xx.fbcdn.net/v/t39.30808-6/473192578_595207533221575_6170470634152321272_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=946e27&_nc_ohc=L_x5qNU0dFgQ7kNvgHyUIzc&_nc_zt=23&_nc_ht=scontent-gru2-1.xx&_nc_gid=AXPQ-VV3q2xJxgA3fH-wXjW&oh=00_AYAv4PbNluR4LSPqaB5NYEWXQS628IN_j6ZwCSkZLriRJw&oe=67A1D3EA',
+  add: "https://i.ytimg.com/vi/Qh_u-oeND5k/maxresdefault.jpg",
 
   image: '',
 
-  title: 'vende-se FIAT Punto Spornting 1.8 ano 2008 | R$:31.900,00',
+  title: "Chevrolet Equinox agora com 20% OFF na semana especial de Natal, acesse agora o site e saiba mais. s",
 
   link: 'https://www.terra.com.br/noticias/brasil/cidades/pm-dirige-embriagado-dorme-ao-volante-e-causa-acidente-com-morte-de-jovem-no-litoral-de-sp,c999f572f88a62fb351de1b0d340e071uyza8leq.html',
   priceCents:1700,
