@@ -4,13 +4,12 @@
 
 .page-container {
   background-color: rgb(255, 255, 255);
-  display: flex;
-  width: 700px;
-  padding: 0 20px;
+  width: 100%;
 }
 
 .title-container h1 {
-  line-height: 50px;
+  line-height: 40px;
+  font-size: 30px;
 }
 
 .text-container {
@@ -21,6 +20,7 @@
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   line-height: 30px;
+  width: 100%;
 }
 
 .page-add-container {
