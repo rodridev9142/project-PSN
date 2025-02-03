@@ -122,7 +122,7 @@ export let linksOfPage = [{
   add: `${foto.addimagem} `,
   image:'' ,
 
-  title: 'Vende-se colheitadeira ano 2000 John deere 1175 | R$:235.000,00.',
+  title: 'Semana especial no AliExpress com muitas promoções e precos legais',
 
   link:'https://brainberries.co/pt/curiosidades/conheca-a-mulher-cavalo/?utm_medium=cpc&utm_source=brainberries.co_mob_br&utm_campaign=brainberries.co_mob_br&utm_term=58056507&utm_content=21404344&adclid=241dfd48b854ba59f744a90b3ec83a19',
 
