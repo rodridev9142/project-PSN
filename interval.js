@@ -1,5 +1,8 @@
 //import { foto } from "./cart-added-js";
 
-export let addImagens = ['https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-6/473979095_647530171178096_6916325292115550005_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=104&ccb=1-7&_nc_sid=454cf4&_nc_ohc=sDTdMFs2umAQ7kNvgGfa4nH&_nc_zt=23&_nc_ht=scontent-gru1-1.xx&_nc_gid=AxFwzv5oNfdvl1gXgRpdatp&oh=00_AYC8Ys310eCHEk7ijnw9RpDOcFQ24TsCDD8Hpe3WsPt7yQ&oe=679F0B6E', 'https://scontent-gru2-1.xx.fbcdn.net/v/t39.30808-6/471329619_626957146568732_7440210267311556935_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=107&ccb=1-7&_nc_sid=946e27&_nc_ohc=6_dDbWK7-QoQ7kNvgGtyrdf&_nc_zt=23&_nc_ht=scontent-gru2-1.xx&_nc_gid=AxFwzv5oNfdvl1gXgRpdatp&oh=00_AYDt9ZqijRTHkD1DcsO7b2q9XBto8pTrydy1AxnDHxqZlw&oe=679F352C', 'https://scontent-gru2-2.xx.fbcdn.net/v/t39.30808-6/471248909_626957206568726_6214782349077860161_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=106&ccb=1-7&_nc_sid=946e27&_nc_ohc=n0zJgKEjhjYQ7kNvgHWA_iA&_nc_zt=23&_nc_ht=scontent-gru2-2.xx&_nc_gid=AxFwzv5oNfdvl1gXgRpdatp&oh=00_AYBRCTmBZvs85FzlDxaxjMa7NACqX74QYjYcDIKtIBRy7g&oe=679F0821',
+export let addImagens = [
+  "https://assets.propmark.com.br/uploads/2020/10/Ali1-FASHION-1200x628-1.jpg",
+  "https://i2.wp.com/assets.propmark.com.br/uploads/2020/10/Ali2-TECH-1200x628-1-1024x536.jpg?resize=720%2C377&ssl=1",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3qn2sVrSACw7fNfk7tYjAjphMLwBMqp7-gv32KT3VBgaQtY3cae9qbMQfcXqZCLu_9o4&usqp=CAU",
 ]
 
