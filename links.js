@@ -30,10 +30,10 @@ add()
 
 export let linksOfPage = [{
   id: '16' ,
-  add:  "https://i.ytimg.com/vi/13DRkbl9f0U/maxresdefault.jpg",
+  add:  "camisa2.png",
   image:'',
 
-  title: "Acesse agora o site da Engov e garanta 30% de descontos em nossos produtos. ",
+  title: "Camiseta especial US.NAVY estampada e com um preço super especial. Confira agora e ganhe frete grátis ",
 
   link:"https://www.engov.com.br/?gad_source=1&gclid=Cj0KCQiA4-y8BhC3ARIsAHmjC_GIfaiUbAVASaBqWGu1J_q2c-PwTKldEj8fFYinjCnBGGhzybDjoeQaAj0OEALw_wcB",
 
