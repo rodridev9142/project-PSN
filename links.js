@@ -5,7 +5,6 @@ export let foto = JSON.parse(localStorage.getItem('foto'))|| {
 'https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-6/473979095_647530171178096_6916325292115550005_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=104&ccb=1-7&_nc_sid=454cf4&_nc_ohc=sDTdMFs2umAQ7kNvgGfa4nH&_nc_zt=23&_nc_ht=scontent-gru1-1.xx&_nc_gid=AxFwzv5oNfdvl1gXgRpdatp&oh=00_AYC8Ys310eCHEk7ijnw9RpDOcFQ24TsCDD8Hpe3WsPt7yQ&oe=679F0B6E'};
 
 
-
 function add() {
  
   let index = 0;
@@ -26,16 +25,85 @@ function add() {
 add()
 
 
+class Links {
+  id;
+  add;
+  image;
+  title = 'as';
+  link;
+  priceCents;
+
+  constructor(linkDetails) {
+    this.id = linkDetails.id;
+    this.add = linkDetails.add;
+    this.image = linkDetails.image;
+    this.title = linkDetails.title;
+    this.link = linkDetails.link;
+    this.priceCents = linkDetails.priceCents;
+    
+  };
+  
+  getTitle() {
+    return this.title;
+  }
+
+  getKnowMore() {
+    return '';
+  }
+}
+
+class Ad extends Links {
+  adLink;
+  constructor(linkDetails) {
+    super(linkDetails)
+    this.adLink = linkDetails.link;
+  }
+
+  getKnowMore() {
+    return `<a href="${this.adLink}">Saiba mais</a>`;
+  }
+}
 
 
-export let linksOfPage = [{
+export const linksOfPage = [{
   id: '16' ,
-  add:  "camisa2.png",
-  image:'',
+  add: "",
+  image:"https://midias.em.com.br/_midias/jpg/2025/01/27/1200x720/1_hospital_regiona_antonio_dias-45420293.jpg?20250127163557?20250127163557",
 
-  title: "Camiseta especial US.NAVY estampada e com um preço super especial. Confira agora e ganhe frete grátis ",
+  title: "Motociclista morre em acidente com carro, moto e carreta em Contagem",
 
   link:"https://www.engov.com.br/?gad_source=1&gclid=Cj0KCQiA4-y8BhC3ARIsAHmjC_GIfaiUbAVASaBqWGu1J_q2c-PwTKldEj8fFYinjCnBGGhzybDjoeQaAj0OEALw_wcB",
+
+  priceCents:1000,
+
+},{
+  id: '19' ,
+  add:  "",
+  image:"https://s2-g1.glbimg.com/OJt890m21pCUL2GhWB8rCYlVmw0=/0x0:5088x3392/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/K/y/Mt6OB8QS6r7evZ8bclyw/2025-01-31t195501z-1764820639-rc25lcaji6lw-rtrmadp-3-usa-crash-washingtondc.jpg",
+
+  title: "Acidente aéreo em Washington: restos mortais de 41 das 67 vítimas já foram recuperados",
+
+  link:"https://www.bbc.com/portuguese/articles/cwyw5jengy9o",
+
+  priceCents:1000,
+},{
+  id: '18' ,
+  add:  "",
+  image:"https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/52fa/live/4c192190-dced-11ef-b5fd-7fcb063e60d0.jpg.webp",
+
+  title: "O plano multimilionário de segurança do Ártico anunciado pela Dinamarca em meio à ameaça de Trump de controlar a Groenlândia",
+
+  link:"https://www.bbc.com/portuguese/articles/cwyw5jengy9o",
+
+  priceCents:1000,
+},{
+  id: '17' ,
+  add:  "",
+  image:"https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/577d/live/86daa8c0-df41-11ef-b6f9-ad737e9c8645.jpg.webp",
+
+  title: "Como avião e helicóptero podem bater no espaço aéreo mais vigiado do mundo? ",
+
+  link:"https://www.bbc.com/portuguese/articles/cn57l7kll77o",
 
   priceCents:1000,
 },{
@@ -81,6 +149,18 @@ export let linksOfPage = [{
 
   priceCents:1000,
 },{
+  id: '20' ,
+  add: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKizqJau_Riod1fgZauyP6kEyRi5M78G_pNMffnlC0Rg93irvRZ4h7RiJJ8N9PeXDPf9FykmD5bSlwDXKDtHCPrYpkruTDfHc8xeINPDZNZJcbfhFK3adY-s2GBSPYFmT735Pqs8j3EeHQ/s1600/VW-Golf-2018+%25285%2529.jpg",
+  image: "",
+
+  title: "A nova completa linha Volkswagen já está disponível e a pronta entrega, comfira",
+
+  link:'https://brainberries.co/pt/curiosidades/conheca-a-mulher-cavalo/?utm_medium=cpc&utm_source=brainberries.co_mob_br&utm_campaign=brainberries.co_mob_br&utm_term=58056507&utm_content=21404344&adclid=241dfd48b854ba59f744a90b3ec83a19',
+
+  priceCents:1000,
+
+  type: 'ad',
+},{
   id: '3' ,
   add: '',
 
@@ -113,7 +193,7 @@ export let linksOfPage = [{
   add: '',
 
   image: 'https://s2-g1.glbimg.com/8t39KC9eedB8LnkJiNZ4Kq1SmxY=/0x0:1206x1189/640x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/j/s/qdV40KQlyz8NGTuk8JVw/whatsapp-image-2025-01-28-at-10.31.05-1-.jpeg',
-  title: 'Técnica de enfermagem morre a caminho do trabalho após carro dela ser arrastado por carreta e cair em barranco no Paraná',
+  title: 'Técnica de enfermagem morre a caminho do trabalho após carro dela ser arrastado por carreta e cair em barranco no Paraná.',
   link: 'https://g1.globo.com/pr/oeste-sudoeste/noticia/2025/01/28/tecnica-enfermagem-morre-a-caminho-trabalho-apos-acidente-carro-ficar-embaixo-carreta-carregada-parana.ghtml',
   priceCents:1700,
 
@@ -122,7 +202,7 @@ export let linksOfPage = [{
   add: `${foto.addimagem} `,
   image:'' ,
 
-  title: 'Semana especial no AliExpress com muitas promoções e precos legais',
+  title: 'Semana especial AliExpress com descontos senssassionais de até 40% OFF',
 
   link:'https://brainberries.co/pt/curiosidades/conheca-a-mulher-cavalo/?utm_medium=cpc&utm_source=brainberries.co_mob_br&utm_campaign=brainberries.co_mob_br&utm_term=58056507&utm_content=21404344&adclid=241dfd48b854ba59f744a90b3ec83a19',
 
@@ -192,6 +272,21 @@ export let linksOfPage = [{
   link: "https://www.terra.com.br/noticias/mundo/estados-unidos/sem-provas-trump-relaciona-acidente-nos-eua-com-programas-de-diversidade-e-inclusao-de-biden-horrivel,d133423c2e91aebc1770fcb8c7309db3h6j3uv1w.html",
   priceCents:1700,
 
-},]
+},{
+  id: '20' ,
+  add:  "",
+  image:"https://s2-g1.glbimg.com/94SNpbWLJTk0CjCwQz8n2KlhTIk=/0x0:3000x1998/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/w/0/hrKsBAS5qSb3EVOO1AKw/asp20220711020.jpg",
+
+  title: "Petrobras anuncia aumento de R$ 0,22 no preço do litro do diesel para as distribuidoras",
+
+  link:"https://g1.globo.com/economia/noticia/2025/01/31/petrobras-anuncia-aumento-do-preco-do-diesel-para-as-distribuidoras.ghtml",
+
+  priceCents:1000,
+},].map((linkDetails) =>{
+  if (linkDetails.type === 'ad') {
+    return new Ad(linkDetails)
+  }
+  return new Links(linkDetails);
+})
 
 
