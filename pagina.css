@@ -1,5 +1,5 @@
 .header {
-  background-color: hsl(0, 0%, 95%);
+  background-color: rgb(247, 247, 247);
   position:static;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -13,7 +13,6 @@ input {
 
 .ul-menu {
   display: flex;
-  margin: ;
 }
 
 .ul-menu li {
@@ -65,8 +64,8 @@ input {
   display: flex;
 }
 
-.perfil-container {
-  background-color: ;
+.title-video {
+  margin: 5px;
 }
 
 .foto-perfil-container {
@@ -74,11 +73,17 @@ input {
   align-items: center;
 }
 
-.foto-perfil, .img-login {
+.foto-perfil {
   width: 30px;
   border-radius: 30px;
   margin: 5px 5px 0px;
   align-items: center;
+}
+
+.img-login {
+  width: 50px;
+  border-radius: 30px;
+  
 }
 
 .ad-icon {
@@ -105,14 +110,35 @@ a {
 .title-container {
   font-family: Helvetica;
   font-weight: bold;
-
   color: #404040;
   
 }
 
+.views-contents{
+  display: flex;
+  list-style: none;
+}
+
+
+.views-contents li{
+  margin: 0 30px;
+  display: flex;
+  
+}
+
+.views{
+  width: 15px;
+}
+
+
+
 .page-add-container {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(231, 231, 231);
   border-radius: 10px;
+}
+
+.page-add2-container{
+  display: none;
 }
 
 
@@ -128,13 +154,18 @@ a {
     width: 100%;
   }
   */
+  .page-add2-container{
+    display: inline;
+  }
+  
+
   input {
     width: 100px;
   }
   
   .ul-menu {
     display: flex;
-    margin: ;
+
   }
   
   .ul-menu li {
@@ -145,7 +176,7 @@ a {
   }
   
   .login {
-    width: 30px;
+    width: 50px;
     margin: 10px;
     font-size: 10px;
   }
@@ -187,7 +218,6 @@ a {
   }
   
   .perfil-container {
-    background-color: ;
   }
   
   .foto-perfil-container {
@@ -195,15 +225,15 @@ a {
     align-items: center;
   }
   
-  .foto-perfil, .img-login {
-    width: 30px;
+  .foto-perfil {
+    width: 20px;
     border-radius: 30px;
     margin: 5px 5px 0px;
     align-items: center;
   }
   
   .ad-icon {
-    width: 30px;
+    width: 25px;
     margin: 5px 5px 0px;
     align-items: center;
   }
@@ -227,7 +257,6 @@ a {
   .title-container {
     font-family: Helvetica;
     font-weight: bold;
-
     color: #404040;
     
   }
@@ -241,6 +270,7 @@ a {
 
   .title-video {
     padding: 0;
+    
   }
   
   
