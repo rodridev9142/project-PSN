@@ -1,0 +1,35 @@
+.add-main {
+  width: 100%;
+  
+  display: flex;
+
+}
+
+.page-add2-container {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 55%;
+  height: 70%;
+  margin: 10px 15px;
+  
+}
+
+
+
+.add-main-img {
+  width: 98%;
+  height: 210px;
+  margin: 3px;
+  border-radius: 15px;
+}
+
+.add-main-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+}
