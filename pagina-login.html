@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PSN Login</title>
   <link rel="stylesheet" href="pagina.css">
+  <link rel="stylesheet" href="login.css">
 </head>
 <body>
   <div class="header">
@@ -30,6 +31,7 @@
       </ul>
     </div>
     <div class="login">
+      
       <a href="pagina-login.html">
         <div>
           <img class="img-login" src="redebrasil.jpg" alt="">
@@ -38,10 +40,59 @@
       </a>
     </div>
   </div>
+  <div class="add-main">
+    
+  
+    <div class="page-add-container">
+      <div class="image-container">
+        <img class="img-link" src="https://i.ytimg.com/vi/13DRkbl9f0U/maxresdefault.jpg">
+      </div>
+      <div class="title-box-container" >
+        <div class="perfil-container">
+          <div class="foto-perfil-container">
+            <img class="ad-icon" src="https://icon-library.com/images/advertisment-icon/advertisment-icon-8.jpg"> 
+          </div>
+          <div class="nome-perfil"></div>
+        </div>
+        <div class="title-container">
+          <p class="patrocinio">Patrocinado</p>
+          <p class="title-video">${link.title}</p>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="page-add2-container">
+      <img class="add-main-img" src="https://acontecendoaqui.com.br/wp-content/uploads/2024/05/1-42.jpg" alt="">
+      <p class="add-main-title">Acesse agora o site da Engov e garanta 30% de descontos em nossos produtos.</p>
+    </div>
+  </div>
 
   <div class="login-data">
-    
+    <label for="">
+      <p>nome</p>
+      <input class="name" type="text" placeholder="Nome">
+    </label>
+      <input class="lastname" type="text" name="" id="" placeholder="sobrenome">
+      <input class="password" type="password" name="" id="" placeholder="Senha">
+      <input class="confirm-password" type="password" name="" id="" placeholder="Confirme sua senha">
+      <button class="button">Login</button>
   </div>
- 
+  <script>
+    const name = document.querySelector('.name');
+    const lastName = document.querySelector('.lastname');
+    const password = document.querySelector('.password');
+    const confirmPassword = document.querySelector('.confirm-password');
+
+
+    document.querySelector('button')
+      .addEventListener('click',() => {
+        if (password.value === confirmPassword.value) {
+          console.log(name.value)
+          console.log(lastName.value)
+          console.log(password.value)
+        }
+      })
+  </script>
 </body>
 </html>
