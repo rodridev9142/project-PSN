@@ -41,6 +41,6 @@ function plus() {
         .innerHTML = mais;
     })
   document.querySelector('.teste')
-    .innerHTML = mais;
+    .innerHTML = "assim";
 }
 plus()
