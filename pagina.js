@@ -35,7 +35,7 @@ document.querySelector('.last-news')
 function plus() {
   let mais = 0;
   document.querySelector('.mais')
-    .addaddEventListener('click',( ) {
+    .addaddEventListener('click',( ) => {
       mais ++;
       document.querySelector('.teste')
         .innerHTML = mais;
